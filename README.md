@@ -39,3 +39,4 @@ Clone this https://github.com/adi1090x/rofi
 ## Touchpad natural scrolling
 - Edit the file: /usr/share/X11/xorg.conf.d/40-libinput.conf
 - Add ```"Option "NaturalScrolling" "True"``` under the input class that references touchpad.
+- Add ```Option "Tapping" "on"``` for touchpad tap clicking.
