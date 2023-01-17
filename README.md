@@ -1,0 +1,2 @@
+# archboi
+Arch setup
