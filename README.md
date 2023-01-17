@@ -17,6 +17,9 @@ Change MAKEFLAGS to:
 ## Pacman Packages:
 ```yay -S --noconfirm neofetch htop firefox-developer-edition alacritty git rofi arandr upower feh```
 
+## i3 config:
+```wget https://raw.githubusercontent.com/haraldaarz/dotfiles/master/i3/config```
+```mv config ~/.config/i3/config ```
 
 
 ## Rofi:
