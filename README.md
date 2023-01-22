@@ -40,3 +40,12 @@ Clone this https://github.com/adi1090x/rofi
 - Edit the file: /usr/share/X11/xorg.conf.d/40-libinput.conf
 - Add ```"Option "NaturalScrolling" "True"``` under the input class that references touchpad.
 - Add ```Option "Tapping" "on"``` for touchpad tap clicking.
+
+## i3 Auto window icons
+- ```wget https://raw.githubusercontent.com/justbuchanan/i3scripts/master/autoname_workspaces.py -O  ~/.config/i3/scripts/autoname_workspaces.py```
+- ```wget https://raw.githubusercontent.com/justbuchanan/i3scripts/master/util.py -O ~/.config/i3/scripts/util.py```
+- ```pip install i3ipc fontawesome```
+- ```yay -S xorg-xprop```
+- ```chmod 755 ~/.config/i3/scripts/autoname_workspaces.py```
+- Add the following line to the i3config:
+- ```exec_always ~/.config/i3/scripts/autoname_workspaces.py```
