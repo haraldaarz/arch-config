@@ -1,7 +1,9 @@
 # Arch post install configs
 
 ## Install Yay:
-```git clone https://aur.archlinux.org/yay.git && cd yay && sudo makepkg -si```
+- Install git: ```sudo pacman -S git```
+- Clone yay: ```git clone https://aur.archlinux.org/yay.git && cd yay ```
+- Make yay: ```makepkg -si```
 
 ## Pacman config:
 Edit this file: /etc/pacman.conf
