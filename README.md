@@ -17,7 +17,7 @@ Change MAKEFLAGS to:
 - MAKEFLAGS="-j$(nproc)"
 
 ## Pacman Packages:
-```yay -S --noconfirm neofetch htop firefox-developer-edition alacritty git rofi arandr upower feh vi thunar```
+```yay -S --noconfirm neofetch htop firefox-developer-edition alacritty rofi arandr upower feh vi thunar xorg-xinput pavucontrol bind dunst xorg-xbacklight xss-lock vim-nerdtree xclip tmux```
 
 ## i3 config:
 ```wget https://raw.githubusercontent.com/haraldaarz/dotfiles/master/i3/config```
