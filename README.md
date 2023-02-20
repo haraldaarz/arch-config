@@ -11,6 +11,9 @@ Unser "Misc", add these two lines:
 - Color
 - ILoveCandy
 
+## Yay multiple download:
+Uncomment ParallelDownloads in /etc/pacman.conf. 
+
 ## Multiple core compiling:
 Edit this file: /etc/makepkg.conf
 Change MAKEFLAGS to: 
@@ -51,3 +54,4 @@ Clone this https://github.com/adi1090x/rofi
 - ```chmod 755 ~/.config/i3/scripts/autoname_workspaces.py```
 - Add the following line to the i3config:
 - ```exec_always ~/.config/i3/scripts/autoname_workspaces.py```
+
