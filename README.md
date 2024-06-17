@@ -20,7 +20,7 @@ Change MAKEFLAGS to:
 - MAKEFLAGS="-j$(nproc)"
 
 ## Pacman Packages:
-```yay -S --noconfirm neofetch htop firefox-developer-edition alacritty rofi arandr upower feh vi thunar xorg-xinput pavucontrol bind dunst xorg-xbacklight xss-lock vim-nerdtree xclip tmux python-pip zsh i3status-rust gnu-netcat net-tools fzf fd noto-fonts-emoji openvpn mousepad evince traceroute dosfstools fuse-exfat```
+```yay -S --noconfirm neofetch htop alacritty upower feh vi  xorg-xinput pavucontrol bind  vim-nerdtree  tmux python-pip zsh i3status-rust gnu-netcat net-tools fzf fd noto-fonts-emoji openvpn mousepad evince traceroute dosfstools fuse-exfat usbutils```
 
 ## i3 config:
 ```wget https://raw.githubusercontent.com/haraldaarz/dotfiles/master/i3/config```
